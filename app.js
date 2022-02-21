@@ -50,8 +50,25 @@ console.log(isFullAge); */
 
 const courseStatus = 'pending'; // ready, fail, pending
 
-if (courseStatus === 'ready') {
+/* if (courseStatus === 'ready') {
   console.log('Курс уже готов и его можно проходить');
-}if(courseStatus === 'pending'){
-console.log('Курс пока находиться на стадии разработки');
-}
+} else if (courseStatus === 'pending') {
+  console.log('Курс пока находиться на стадии разработки');
+} else {
+  console.log('Курс не получился');
+} */
+
+const isReady = false;
+
+/* if (isReady) {
+  console.log('Всё готово');
+} else {
+  console.log('Всё не готово');
+} */
+
+isReady ?  console.log('Всё готово') : console.log('Всё не готово');
+
+/* const num1 = 42; // number
+const num2 = '42'; // string
+
+console.log(num1 === num2); // (== - true (по значению)) (=== - false (по типу данных и значению)) */
